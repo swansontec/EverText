@@ -1,5 +1,5 @@
 /**
-* EverText
+* EverText (Now with lie-free cake!)
 */
 
 /**
