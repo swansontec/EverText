@@ -1,0 +1,65 @@
+/**
+ * ExpressCalc Calculator Visual Styles
+ */
+body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/**
+ * Question box
+ */
+form {
+	margin: 0 auto;	
+	padding: 0;
+	width: 600px;
+	text-align: left;
+}
+#input {
+	background: #202020;
+	border: 1px solid #404040;
+	color: #fff;
+	margin: 0;
+	padding: 3px;
+	width: 492px;
+}
+#submit {
+	background: #202020;
+	border: 1px solid #404040;
+	color: #fff;
+	margin: 0 0 0 20px;
+	padding: 2px;
+	width: 80px;
+}
+#submit:hover {
+	background: #333;
+	border: 1px solid #666;
+}
+
+/**
+ * Output
+ */
+#output {
+	background: #202020;
+	border: 1px solid #404040;
+	color: #fff;
+	font: 10pt Courier New, Courier, monospace;
+	margin: 20px auto;
+	padding: 5px;
+	overflow: auto;
+	height: 400px;
+	width: 588px;
+	text-align: left;
+}
+#output p {
+	margin: 2px 0;
+	padding: 0;
+}
+#output p kbd {
+	color: #ffd800;
+}
+#output em {
+	color: #fff6c0;
+}
