@@ -235,7 +235,7 @@ function doGame(input)
   case 'shack':
     if (input == 'wake up man' && !game.shackman) {
       game.shackman = true;
-      textOut('The man wakes up and asks if you would like to trade your gold for a  map, mabie you should <em>trade</em> with him.');
+      textOut('The man wakes up and asks if you would like to trade your gold for a  map, maybe you should <em>trade</em> with him.');
       return;
     }
     if (input == 'trade gold') {
