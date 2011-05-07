@@ -1,10 +1,10 @@
 /**
-* EverText (Now with lie-free cake!)
-*/
+ * EverText (Now with lie-free cake!)
+ */
 
 /**
-* Call this function to put HTML into the output box:
-*/
+ * Call this function to put HTML into the output box:
+ */
 function textOut(text)
 {
   var p = document.createElement("p");
@@ -17,8 +17,8 @@ function textOut(text)
 }
 
 /**
-* Display a welcome message.
-*/
+ * Display a welcome message.
+ */
 function gameWelcome() {
   textOut('<img alt="Welcome to EverText" src="welcome.png">');
   gameCommand('look');
@@ -26,8 +26,8 @@ function gameWelcome() {
 window.onload = gameWelcome;
 
 /**
-* Handle when the user presses "enter"
-*/
+ * Handle when the user presses "enter"
+ */
 function gameSubmit()
 {
   //Get the text they entered:
@@ -46,8 +46,8 @@ function gameSubmit()
 }
 
 /**
-* Handles default command behavior.
-*/
+ * Handles default command behavior.
+ */
 function gameCommand(input)
 {
   var here = places[game.location];
@@ -154,8 +154,8 @@ function gameCommand(input)
 }
 
 /**
-* This is the player's inventory:
-*/
+ * This is the player's inventory:
+ */
 var game = {
   "location": "start",
   "score": 0,
@@ -168,8 +168,8 @@ var game = {
 };
 
 /**
-* These are the places the player can go:
-*/
+ * These are the places the player can go:
+ */
 var places = {
   "start": {
     "text": "You find yourself on an island. A cool breeze is blowing from the ocean, and palm trees line a sandy road heading from <em>east</em> to <em>west</em>.",
@@ -202,8 +202,8 @@ var places = {
 };
 
 /**
-* Custom game logic.
-*/
+ * Custom game logic.
+ */
 function doGame(input)
 {
   //Handle special actions at certain locations:
